@@ -8,24 +8,18 @@
 
 -   ### API
    
-	-  	 The API mimics the water quality sensor data similar to the one shared [here](https://data.world/cityofchicago/beach-water-quality-automated-sensors).
+	-   The API mimics the water quality sensor data similar to the one shared [here](https://data.world/cityofchicago/beach-water-quality-automated-sensors).
 	    
 	-   The implementation is done in flask web framework and the response is as follows:
 	    
 
-		‘2020-02-17T11:12:58.765969 26.04 540.1 13.12 Montrose_Beach 758028’
-
-		![](https://lh6.googleusercontent.com/TDsc79yE-D_GBX7hFNrbgGlnP81TaRvBESeE2JvyEb8VaFzO_h1jNezTLsTg8CRsjfMtJOFrxPJi0EkqTOuRXlpP6U0SwuSMtFg4_rYYzNF5iASjx3MFIM4jKe5fjTKlVbAm4OMK)
-
+		
 -   ### Kafka Producer (Topic: RawSensorData)
     
 	
 	-   The data from the API stream is pushed to Kafka Producer under topic: RawSensorData
 	    
 
-  
-
-		![](https://lh6.googleusercontent.com/KqaLvzLkdC2aYar0UeQ9raBgJgf0QXLyGe9GFr6z0uT6O-sx4ZizobVCdgIMTSZ8itXtiHfIThLHc5FoAwXtkA2U_lVZRJDQdLNvcNPKAIfS1Sa6GuiaTcCiABlpSlnhrfoSqn1s)
 
 -   ### Apache Spark and Kafka Consumer (Topic: CleanSensorData)
     
