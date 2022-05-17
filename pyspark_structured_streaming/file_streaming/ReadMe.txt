@@ -1,0 +1,1 @@
+All the files present in input_data folder will be fetched. As you move the files from user-data to input-data folder, the ouput will be updated and this will mimic the behaviour of data streaming into the system.

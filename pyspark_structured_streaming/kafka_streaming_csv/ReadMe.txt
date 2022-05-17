@@ -1,0 +1,1 @@
+First run the kafka_streaming_csv_demo.py file then in a separtae terminal run kafka_prod.py file present in kafka_producer_consumer folder.

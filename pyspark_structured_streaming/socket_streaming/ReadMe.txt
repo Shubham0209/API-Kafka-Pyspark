@@ -1,0 +1,1 @@
+First run the command 'telnet localhost 1100' in the shell to get acces to the port, then run the streaming_demo.py file. Now when you type anythig on the port 1100 it will be feteched by the streaming_demo.py file
